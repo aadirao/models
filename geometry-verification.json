@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checks": {
+    "three_enhancers": true,
+    "documented_width": true,
+    "enhancer_pipe_clearance": true,
+    "tracer_flange_clearance": true,
+    "static_native_model": true,
+    "no_missing_linked_assets": true,
+    "six_installed_bands": true,
+    "three_insulation_sections": true,
+    "reference_valve_and_jacket": true,
+    "jacket_body_approach_no_surface_intersections": true,
+    "system_route_present": true,
+    "tracer_return_clears_elbow_inlet": true
+  },
+  "intersection_details": [],
+  "minimum_tracer_elbow_clearance_mm": 0.1556281140877025,
+  "minimum_tracer_flange_clearance_mm": 43.66565615907217,
+  "objects": 718,
+  "blender": "5.2.2 LTS",
+  "limits": "Sampled triangle intersection checks on jacket body approaches and analytic fit checks; not a complete contact or flexible-body dynamics solution"
+}

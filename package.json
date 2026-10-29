@@ -1,0 +1,11 @@
+{
+  "name": "heat-tracing-project",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs 4173 --open",
+    "standalone": "node build-standalone.mjs",
+    "check": "node --check dist/app.js && node --check dist/environment.js && node --check dist/thermal.js && node verify-v4.mjs"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "checks": {
+    "temperature_bounds": true,
+    "energy_conservation": true,
+    "insulation_reduces_loss": true,
+    "uniform_equilibrium": true,
+    "geometry_derived_mass": true,
+    "circumferential_heat_spreading": true,
+    "grid_sensitivity_under_3C": true,
+    "band_wrap_clears_pipe_tube_and_enhancer": true,
+    "enhancer_approach_clearance": true,
+    "all_parts_seated_at_100": true,
+    "split_shell_radial_paths_clear_pipe": true,
+    "three_exported_shell_sections": true,
+    "exact_integrated_heater_footprint": true,
+    "wind_increases_cooling": true,
+    "convection_follows_wind": true,
+    "switch_off_cools_without_heat_input": true,
+    "weather_change_preserves_state_and_energy": true,
+    "environment_extremes_stable": true,
+    "tour_loop_bounded": true,
+    "focus_camera_fits_portrait_and_landscape": true,
+    "jacket_halves_approach_from_opposite_sides": true,
+    "reference_model_components_exported": true,
+    "old_branding_removed": true,
+    "no_runtime_cdn_dependencies": true
+  },
+  "thermal": {
+    "at20Minutes": {
+      "average": 72.89130052319689,
+      "min": 30.33288273906131,
+      "max": 137.85777365205797,
+      "time": 1199.9999999999998,
+      "input": 627.9903547203795,
+      "loss": 49.22670533632562,
+      "stored": 1175201.2558909971,
+      "mass": 46.28995554191594
+    },
+    "uninsulatedAverage": 63.25129950155667,
+    "gridDifferenceC": 0.2544062751561711,
+    "energyErrorJ": 5.122274160385132e-9
+  },
+  "clearancesMm": {
+    "bandToPipe": 0.49367014906701034,
+    "bandToTube": 2.872368555581548,
+    "bandToEnhancer": 0.499999999999961,
+    "enhancerToPipe": 0.4768135640859511,
+    "enhancerToTube": 0.3499999999999875
+  },
+  "meshDefinitions": 692,
+  "limits": [
+    "Analytic motion-envelope checks, not a general deformable-body contact solver",
+    "Input contact and film coefficients remain uncalibrated",
+    "No manufacturer-accurate proprietary cross-section"
+  ],
+  "environment": {
+    "calmBare30min": 70.53566916140835,
+    "windyBare30min": 53.79982606394432,
+    "heaterOffAfter10min": 71.57843564590277
+  },
+  "version": 4,
+  "totalChecks": 24
+}

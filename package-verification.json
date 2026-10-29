@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": {
+    "neutral_project_files": true,
+    "native_and_model_metadata_checked": true,
+    "image_and_render_metadata_checked": true,
+    "all_five_reference_files_included": true,
+    "required_library_license_preserved": true
+  },
+  "file_count_before_manifest": 36,
+  "native_model_bytes": 11930105
+}

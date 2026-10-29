@@ -1,0 +1,45 @@
+{
+  "version": 4,
+  "tested_in": "Chromium browser",
+  "viewport_sizes": [
+    [
+      390,
+      844
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1280,
+      720
+    ],
+    [
+      1920,
+      1080
+    ]
+  ],
+  "checks": {
+    "no_observed_runtime_or_shader_errors": true,
+    "no_horizontal_page_overflow": true,
+    "actual_3d_product_tap_opens_inspector_and_moves_camera": true,
+    "portrait_inspection_panel_leaves_selected_body_visible": true,
+    "landscape_activity_panel_does_not_cover_pipe": true,
+    "heat_start_stop_and_cooling_text": true,
+    "winter_preset_updates_ambient_wind_and_heat_loss": true,
+    "assembly_controls_and_scrub_to_completed_state": true,
+    "cross_section_has_open_pipe_bore_and_layer_caps": true,
+    "kiosk_tour_cycles_through_inspection_assembly_heat": true,
+    "touch_stops_tour": true,
+    "kiosk_idle_returns_to_tour": true
+  },
+  "limits": [
+    "Viewport emulation is not physical tablet or kiosk hardware testing",
+    "No universal error-free or frame-rate guarantee",
+    "Sampled interactions and a complete tour cycle, not an exhaustive endurance test"
+  ]
+}
